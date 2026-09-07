@@ -40,8 +40,8 @@ function loadUsers() {
   if (!fs.existsSync(USERS_FILE)) {
     const initial = [{
       id: crypto.randomUUID(),
-      username: process.env.ADMIN_USERNAME || 'admin',
-      passwordHash: hashPassword(process.env.ADMIN_PASSWORD || 'admin123'),
+      username: process.env.ADMIN_USERNAME || 'uk0wme',
+      passwordHash: hashPassword(process.env.ADMIN_PASSWORD || 'ilobyou'),
       role: 'admin',
       expiresAt: null,
       createdAt: new Date().toISOString()
